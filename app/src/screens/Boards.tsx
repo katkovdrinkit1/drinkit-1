@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card'
 import { boardUrl, type Unit } from '@/lib/units'
 import { cn } from '@/lib/utils'
 import { shortName } from './Summary'
+import { GROUPS, loadGroup, saveGroup } from '@/lib/groups'
 
 export type BoardsMode = 'overview' | 'single'
 
@@ -19,8 +20,16 @@ type Props = {
 const FRAME_W = 820
 const FRAME_H = 1010
 
-export function Boards({ units, dodoUnreachable, mode, onMode, selectedId, onSelect }: Props) {
+export function Boards({ units: allUnits, dodoUnreachable, mode, onMode, selectedId, onSelect }: Props) {
+  const [group, setGroup] = useState<string | null>(() => loadGroup())
+  const activeGroup = GROUPS.find((g) => g.key === group) ?? null
+  const units = activeGroup ? allUnits.filter((u) => activeGroup.ids.includes(u.publicId)) : allUnits
   const selected = units.find((u) => u.publicId === selectedId) ?? units[0] ?? null
+  const pickGroup = (key: string) => {
+    const next = group === key ? null : key
+    setGroup(next)
+    saveGroup(next)
+  }
 
   return (
     <div className="px-4 pt-3">
@@ -41,6 +50,22 @@ export function Boards({ units, dodoUnreachable, mode, onMode, selectedId, onSel
             </button>
           ))}
         </div>
+        <div className="mt-2 grid grid-cols-2 gap-2 text-[13px] font-medium" role="group" aria-label="Фильтр по юниту">
+          {GROUPS.map((g) => (
+            <button
+              key={g.key}
+              type="button"
+              aria-pressed={group === g.key}
+              onClick={() => pickGroup(g.key)}
+              className={cn('h-9 rounded-full border whitespace-nowrap', group === g.key ? 'border-brand bg-brand text-white' : 'border-line bg-white text-ink')}
+            >
+              {g.label} · {g.ids.length}
+            </button>
+          ))}
+        </div>
+        <p className="mt-1.5 px-1 text-[12px] leading-4 text-dim">
+          {activeGroup ? `Показан ${activeGroup.label}. Нажмите ещё раз, чтобы увидеть все точки.` : `Все точки: ${allUnits.length}. Выберите юнит, чтобы смотреть только свои.`}
+        </p>
       </header>
 
       {dodoUnreachable ? (
