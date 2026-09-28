@@ -5,6 +5,7 @@ import { fmtClock, fmtOrders, fmtRub } from '@/lib/format'
 import type { Evaluation } from '@/lib/metrics'
 import type { StoresFilter } from './Summary'
 import { cn } from '@/lib/utils'
+import { UnitFilter } from '@/components/ui/unit-filter'
 
 type Props = {
   evals: Evaluation[]
@@ -12,6 +13,9 @@ type Props = {
   onClearFilter: () => void
   onSelect: (e: Evaluation) => void
   onAdd: () => void
+  group: string | null
+  onGroup: (key: string | null) => void
+  total: number
 }
 
 const FILTER_LABEL: Record<Exclude<StoresFilter, null>, string> = {
@@ -21,7 +25,7 @@ const FILTER_LABEL: Record<Exclude<StoresFilter, null>, string> = {
   gray: 'без данных',
 }
 
-export function Stores({ evals, filter, onClearFilter, onSelect, onAdd }: Props) {
+export function Stores({ evals, filter, onClearFilter, onSelect, onAdd, group, onGroup, total }: Props) {
   const list = evals.filter((e) => {
     if (!filter) return true
     return e.level === filter
@@ -38,6 +42,8 @@ export function Stores({ evals, filter, onClearFilter, onSelect, onAdd }: Props)
           <Plus size={18} /> Добавить
         </button>
       </header>
+
+      <UnitFilter group={group} onGroup={onGroup} total={total} />
 
       {filter ? (
         <button type="button" onClick={onClearFilter} className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-brand-soft px-3 py-1.5 text-[13px] font-medium text-brand">

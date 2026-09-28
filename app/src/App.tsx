@@ -10,6 +10,7 @@ import { useStats } from '@/hooks/useStats'
 import { EMPTY_HISTORY, loadHistory, mergeLive, type History } from '@/data/history'
 import { evaluate, sortEvaluations } from '@/lib/metrics'
 import { fetchUnitInfo } from '@/api/publicApi'
+import { GROUPS, loadGroup, saveGroup } from '@/lib/groups'
 import { DEFAULT_UNITS, clearHash, idsFromHash, loadStored, saveStored, shareLink, unitFromInfo, type Stored, type Unit } from '@/lib/units'
 
 const TABS: NavItem[] = [
@@ -28,6 +29,11 @@ export default function App() {
   const [storesFilter, setStoresFilter] = useState<StoresFilter>(null)
   const [boardsMode, setBoardsMode] = useState<BoardsMode>('overview')
   const [boardId, setBoardId] = useState<number | null>(null)
+  const [group, setGroupState] = useState<string | null>(() => loadGroup())
+  const setGroup = useCallback((key: string | null) => {
+    setGroupState(key)
+    saveGroup(key)
+  }, [])
 
   const known = useMemo(() => {
     const map = new Map<number, Unit>()
@@ -83,6 +89,11 @@ export default function App() {
     return sortEvaluations(units.map((u) => evaluate(u, stats.data[u.publicId], merged)))
   }, [units, stats.data, merged, tick])
 
+  const activeGroup = GROUPS.find((g) => g.key === group) ?? null
+  const inGroup = (id: number) => !activeGroup || activeGroup.ids.includes(id)
+  const groupEvals = evals.filter((e) => inGroup(e.unit.publicId))
+  const groupUnits = units.filter((u) => inGroup(u.publicId))
+
   const detail = detailId !== null ? (evals.find((e) => e.unit.publicId === detailId) ?? null) : null
   const dodoUnreachable = units.length > 0 && stats.failedCount === units.length && (stats.dominantKind === 'blocked' || stats.dominantKind === 'not-json' || stats.dominantKind === 'timeout' || stats.dominantKind === 'network')
 
@@ -120,7 +131,10 @@ export default function App() {
     <div className="mx-auto min-h-dvh w-full max-w-[560px] safe-bottom safe-top">
       {tab === 0 ? (
         <Summary
-          evals={evals}
+          evals={groupEvals}
+          group={group}
+          onGroup={setGroup}
+          total={units.length}
           updatedAt={stats.updatedAt}
           loading={stats.loading}
           failedCount={stats.failedCount}
@@ -132,8 +146,8 @@ export default function App() {
           }}
         />
       ) : null}
-      {tab === 1 ? <Stores evals={evals} filter={storesFilter} onClearFilter={() => setStoresFilter(null)} onSelect={(e) => setDetailId(e.unit.publicId)} onAdd={() => setAddOpen(true)} /> : null}
-      {tab === 2 ? <Boards units={units} dodoUnreachable={dodoUnreachable} mode={boardsMode} onMode={setBoardsMode} selectedId={boardId} onSelect={setBoardId} /> : null}
+      {tab === 1 ? <Stores evals={groupEvals} group={group} onGroup={setGroup} total={units.length} filter={storesFilter} onClearFilter={() => setStoresFilter(null)} onSelect={(e) => setDetailId(e.unit.publicId)} onAdd={() => setAddOpen(true)} /> : null}
+      {tab === 2 ? <Boards units={groupUnits} group={group} onGroup={setGroup} total={units.length} dodoUnreachable={dodoUnreachable} mode={boardsMode} onMode={setBoardsMode} selectedId={boardId} onSelect={setBoardId} /> : null}
 
       <BottomNav items={TABS} activeIndex={tab} onChange={setTab} />
 

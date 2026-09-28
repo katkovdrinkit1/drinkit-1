@@ -8,6 +8,7 @@ import { API_CHECK_URL, type ApiErrorKind } from '@/api/publicApi'
 import { unitNow } from '@/lib/time'
 import { DEPARTMENT_NAME } from '@/lib/units'
 import { cn } from '@/lib/utils'
+import { UnitFilter } from '@/components/ui/unit-filter'
 
 export type StoresFilter = Level | null
 
@@ -19,11 +20,14 @@ type Props = {
   errorKind: ApiErrorKind | null
   onRefresh: () => void
   onShowStores: (filter: StoresFilter) => void
+  group: string | null
+  onGroup: (key: string | null) => void
+  total: number
 }
 
 export const shortName = (name: string) => name.replace(/^Москва\s+/u, '')
 
-export function Summary({ evals, updatedAt, loading, failedCount, errorKind, onRefresh, onShowStores }: Props) {
+export function Summary({ evals, updatedAt, loading, failedCount, errorKind, onRefresh, onShowStores, group, onGroup, total }: Props) {
   const withStats = evals.filter((e) => e.stats)
   const todayIso = withStats[0]?.stats?.date ?? unitNow(3).iso
   const yDate = withStats[0]?.yesterday.date ?? unitNow(3).iso
@@ -62,6 +66,8 @@ export function Summary({ evals, updatedAt, loading, failedCount, errorKind, onR
           <RefreshCw size={18} className={cn(loading && 'animate-spin')} />
         </button>
       </header>
+
+      <UnitFilter group={group} onGroup={onGroup} total={total} />
 
       <div className="flex flex-col gap-3">
         {failedCount > 0 ? (
