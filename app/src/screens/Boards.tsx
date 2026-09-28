@@ -103,6 +103,7 @@ export function Boards({ units: allUnits, dodoUnreachable, mode, onMode, selecte
               </button>
             ))}
           </div>
+          <p className="mb-2 px-1 text-[12px] leading-4 text-dim">Внизу табло нажмите 👎 или 👍 — лента под ними покажет заказы с оценками и комментариями гостей.</p>
           <SingleBoard unit={selected} />
           <div className="mt-2 flex items-center justify-between gap-3 px-1">
             <p className="text-[12px] leading-4 text-dim">{selected.alias ?? selected.address ?? ''}. Внутри табло листается лента заказов.</p>
@@ -186,26 +187,25 @@ function BoardThumb({ unit, onOpen }: { unit: Unit; onOpen: () => void }) {
 // Поэтому фрейм рендерится в «планшетной» раскладке шириной 620 px и уменьшается
 // под ширину телефона (проверено 28.09.2026 на 1-10: полоса ~770 px, лайки ~950 px).
 const SINGLE_W = 620
+// Высота видимой части табло в его пикселях: до лайков ~1000 px, ниже 4–5 заказов
+// ленты. Тап по 👍/👎 фильтрует ленту до заказов с оценками и тегами-комментариями.
+const SINGLE_H = 1650
 
 function SingleBoard({ unit }: { unit: Unit }) {
   const ref = useRef<HTMLDivElement>(null)
-  const [box, setBox] = useState({ w: 343, h: 600 })
+  const [box, setBox] = useState({ w: 343, h: Math.round((SINGLE_H * 343) / SINGLE_W) })
 
   useLayoutEffect(() => {
     const el = ref.current
     if (!el) return
     const update = () => {
-      const vh = window.visualViewport?.height ?? window.innerHeight
-      setBox({ w: el.clientWidth, h: Math.round(Math.min(900, Math.max(520, vh - 250))) })
+      const w = el.clientWidth
+      setBox({ w, h: Math.round(SINGLE_H * Math.min(1, w / SINGLE_W)) })
     }
     update()
     const ro = new ResizeObserver(update)
     ro.observe(el)
-    window.addEventListener('resize', update)
-    return () => {
-      ro.disconnect()
-      window.removeEventListener('resize', update)
-    }
+    return () => ro.disconnect()
   }, [])
 
   const scale = Math.min(1, box.w / SINGLE_W)
