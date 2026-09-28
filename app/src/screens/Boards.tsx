@@ -103,16 +103,7 @@ export function Boards({ units: allUnits, dodoUnreachable, mode, onMode, selecte
               </button>
             ))}
           </div>
-          <Card className="overflow-hidden">
-            <iframe
-              key={selected.publicId}
-              src={boardUrl(selected)}
-              title={`Табло ${selected.name}`}
-              className="block w-full border-0 bg-white"
-              style={{ height: 'clamp(480px, calc(100dvh - 300px), 760px)' }}
-              loading="eager"
-            />
-          </Card>
+          <SingleBoard unit={selected} />
           <div className="mt-2 flex items-center justify-between gap-3 px-1">
             <p className="text-[12px] leading-4 text-dim">{selected.alias ?? selected.address ?? ''}. Внутри табло листается лента заказов.</p>
             <a
@@ -185,6 +176,53 @@ function BoardThumb({ unit, onOpen }: { unit: Unit; onOpen: () => void }) {
         ) : null}
         <div aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-14" style={{ background: 'linear-gradient(to bottom, rgba(246,248,253,0), #F6F8FD)' }} />
         <button type="button" onClick={onOpen} aria-label={`Открыть табло ${unit.name}`} className="absolute inset-0" />
+      </div>
+    </Card>
+  )
+}
+
+// Табло Dodo на ширине < 600 px рисуется в одну длинную колонку, и полоса
+// «медленно / нормально / быстро» с лайками уходит на полтора экрана вниз.
+// Поэтому фрейм рендерится в «планшетной» раскладке шириной 620 px и уменьшается
+// под ширину телефона (проверено 28.09.2026 на 1-10: полоса ~770 px, лайки ~950 px).
+const SINGLE_W = 620
+
+function SingleBoard({ unit }: { unit: Unit }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [box, setBox] = useState({ w: 343, h: 600 })
+
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const update = () => {
+      const vh = window.visualViewport?.height ?? window.innerHeight
+      setBox({ w: el.clientWidth, h: Math.round(Math.min(900, Math.max(520, vh - 250))) })
+    }
+    update()
+    const ro = new ResizeObserver(update)
+    ro.observe(el)
+    window.addEventListener('resize', update)
+    return () => {
+      ro.disconnect()
+      window.removeEventListener('resize', update)
+    }
+  }, [])
+
+  const scale = Math.min(1, box.w / SINGLE_W)
+  const frameW = box.w / scale
+  const frameH = box.h / scale
+
+  return (
+    <Card className="overflow-hidden">
+      <div ref={ref} className="relative w-full overflow-hidden bg-white" style={{ height: box.h }}>
+        <iframe
+          key={unit.publicId}
+          src={boardUrl(unit)}
+          title={`Табло ${unit.name}`}
+          loading="eager"
+          className="absolute top-0 left-0 max-w-none border-0 bg-white"
+          style={{ width: frameW, height: frameH, transform: `scale(${scale})`, transformOrigin: '0 0' }}
+        />
       </div>
     </Card>
   )
