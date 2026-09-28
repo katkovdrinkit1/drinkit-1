@@ -1,0 +1,1775 @@
+{
+  "owner": "katkovdrinkit1",
+  "country": "ru",
+  "countryNumeric": 643,
+  "department": "Москва 1",
+  "departmentId": 375,
+  "savedAt": "2026-09-28",
+  "note": "Москва 1-99 (РБК Инвест Викенд, событийная точка) на экран по умолчанию не добавлена, доступна в окне «Кофейни»",
+  "units": [
+    {
+      "name": "Москва 1-1",
+      "alias": "БЦ Савёловский Сити",
+      "publicId": 1148,
+      "uuid": "5a3403ab9750bd7711ed3f2189666641",
+      "uuidDashed": "5a3403ab-9750-bd77-11ed-3f2189666641",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Новодмитровская улица, 2к1",
+      "state": 1,
+      "type": 1,
+      "square": 21.6,
+      "beginDateWork": "2022-11-21",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/5a3403ab-9750-bd77-11ed-3f2189666641",
+      "boardUnitId": "5a3403ab-9750-bd77-11ed-3f2189666641",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-2",
+      "alias": "БЦ Джазз",
+      "publicId": 139614,
+      "uuid": "225b21c636a9bf9111eeb140b928cacb",
+      "uuidDashed": "225b21c6-36a9-bf91-11ee-b140b928cacb",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Сущёвский Вал, 49",
+      "state": 1,
+      "type": 1,
+      "square": 39.6,
+      "beginDateWork": "2024-01-22",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/225b21c6-36a9-bf91-11ee-b140b928cacb",
+      "boardUnitId": "225b21c6-36a9-bf91-11ee-b140b928cacb",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-3",
+      "alias": "БЦ Прайм Тайм",
+      "publicId": 139615,
+      "uuid": "225b21c636a9bf9311eeb14384e7e855",
+      "uuidDashed": "225b21c6-36a9-bf93-11ee-b14384e7e855",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Викторенко, 9с1",
+      "state": 1,
+      "type": 1,
+      "square": 79.3,
+      "beginDateWork": "2024-03-22",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/225b21c6-36a9-bf93-11ee-b14384e7e855",
+      "boardUnitId": "225b21c6-36a9-bf93-11ee-b14384e7e855",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-4",
+      "alias": "БЦ Метрополис",
+      "publicId": 139641,
+      "uuid": "02369dd07cdcbe4311ef53536a130512",
+      "uuidDashed": "02369dd0-7cdc-be43-11ef-53536a130512",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Ленинградское шоссе, 16Ас3",
+      "state": 1,
+      "type": 1,
+      "square": 93,
+      "beginDateWork": "2024-11-06",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/02369dd0-7cdc-be43-11ef-53536a130512",
+      "boardUnitId": "02369dd0-7cdc-be43-11ef-53536a130512",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-5",
+      "alias": "БЦ DM Tower",
+      "publicId": 139642,
+      "uuid": "02369dd07cdcbe4511ef53545c800f06",
+      "uuidDashed": "02369dd0-7cdc-be45-11ef-53545c800f06",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Новоданиловская набережная, 12",
+      "state": 1,
+      "type": 1,
+      "square": 50,
+      "beginDateWork": "2024-09-04",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 63000
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 63000
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/02369dd0-7cdc-be45-11ef-53545c800f06",
+      "boardUnitId": "02369dd0-7cdc-be45-11ef-53545c800f06",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-6",
+      "alias": "ТЦ Ботаника | 1 этаж",
+      "publicId": 139643,
+      "uuid": "02369dd07cdcbe4611ef5355700ba658",
+      "uuidDashed": "02369dd0-7cdc-be46-11ef-5355700ba658",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Вильгельма Пика, 11",
+      "state": 1,
+      "type": 1,
+      "square": 86.7,
+      "beginDateWork": "2025-03-17",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/02369dd0-7cdc-be46-11ef-5355700ba658",
+      "boardUnitId": "02369dd0-7cdc-be46-11ef-5355700ba658",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-7",
+      "alias": "ЖК Кварталы 21/19",
+      "publicId": 139644,
+      "uuid": "02369dd07cdcbe4811ef5356792e00e3",
+      "uuidDashed": "02369dd0-7cdc-be48-11ef-5356792e00e3",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "2-й Грайвороновский проезд, 44к2",
+      "state": 1,
+      "type": 1,
+      "square": 50,
+      "beginDateWork": "2024-12-26",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/02369dd0-7cdc-be48-11ef-5356792e00e3",
+      "boardUnitId": "02369dd0-7cdc-be48-11ef-5356792e00e3",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-8",
+      "alias": "Усачёва, 29к9",
+      "publicId": 139645,
+      "uuid": "02369dd07cdcbe4a11ef5357092397b8",
+      "uuidDashed": "02369dd0-7cdc-be4a-11ef-5357092397b8",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Усачёва, 29к9",
+      "state": 1,
+      "type": 1,
+      "square": 120.7,
+      "beginDateWork": "2025-04-14",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/02369dd0-7cdc-be4a-11ef-5357092397b8",
+      "boardUnitId": "02369dd0-7cdc-be4a-11ef-5357092397b8",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-9",
+      "alias": "ЖК Зиларт | Щусева",
+      "publicId": 139646,
+      "uuid": "32163857cb5ea92d11ef5a008886e951",
+      "uuidDashed": "32163857-cb5e-a92d-11ef-5a008886e951",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Архитектора Щусева, 4к1",
+      "state": 1,
+      "type": 1,
+      "square": 51.9,
+      "beginDateWork": "2025-02-10",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/32163857-cb5e-a92d-11ef-5a008886e951",
+      "boardUnitId": "32163857-cb5e-a92d-11ef-5a008886e951",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-10",
+      "alias": "Новокузнецкая, 4/12c1",
+      "publicId": 139692,
+      "uuid": "11f00ee5a099e15d589c1ffdab0645a0",
+      "uuidDashed": "11f00ee5-a099-e15d-589c-1ffdab0645a0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Новокузнецкая улица, 4/12с1",
+      "state": 1,
+      "type": 1,
+      "square": 71.9,
+      "beginDateWork": "2025-06-13",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f00ee5-a099-e15d-589c-1ffdab0645a0",
+      "boardUnitId": "11f00ee5-a099-e15d-589c-1ffdab0645a0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-11",
+      "alias": "ЖК Lucky",
+      "publicId": 139693,
+      "uuid": "11f00ee8b1d3cd81b0426fd146bbf510",
+      "uuidDashed": "11f00ee8-b1d3-cd81-b042-6fd146bbf510",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "2-я Звенигородская улица, 12с21",
+      "state": 1,
+      "type": 1,
+      "square": 67.8,
+      "beginDateWork": "2025-04-09",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f00ee8-b1d3-cd81-b042-6fd146bbf510",
+      "boardUnitId": "11f00ee8-b1d3-cd81-b042-6fd146bbf510",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-12",
+      "alias": "БЦ Аркус",
+      "publicId": 139694,
+      "uuid": "11f00ee985d44fb27573d64dd95a54b0",
+      "uuidDashed": "11f00ee9-85d4-4fb2-7573-d64dd95a54b0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Ленинградский проспект, 37Ак14",
+      "state": 1,
+      "type": 1,
+      "square": 46,
+      "beginDateWork": "2025-07-02",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 63000
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 63000
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f00ee9-85d4-4fb2-7573-d64dd95a54b0",
+      "boardUnitId": "11f00ee9-85d4-4fb2-7573-d64dd95a54b0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-13",
+      "alias": "ЖК Сердце Столицы: вход по пропускам",
+      "publicId": 139695,
+      "uuid": "11f00eea9015bfd111c981428091cba0",
+      "uuidDashed": "11f00eea-9015-bfd1-11c9-81428091cba0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Шелепихинская набережная, 34к6",
+      "state": 1,
+      "type": 1,
+      "square": 53,
+      "beginDateWork": "2025-08-26",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f00eea-9015-bfd1-11c9-81428091cba0",
+      "boardUnitId": "11f00eea-9015-bfd1-11c9-81428091cba0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-14",
+      "alias": "ЖК Green park",
+      "publicId": 139696,
+      "uuid": "11f00eeb9f7a91c7b7505d2fa2f983d0",
+      "uuidDashed": "11f00eeb-9f7a-91c7-b750-5d2fa2f983d0",
+      "departmentId": 375,
+      "organizationName": "Сырная Пенка",
+      "organizationUUId": "11F0A283B922870E9608ABF974EF7130",
+      "address": "Сельскохозяйственная улица, 37",
+      "state": 1,
+      "type": 1,
+      "square": 95,
+      "beginDateWork": "2025-10-01",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f00eeb-9f7a-91c7-b750-5d2fa2f983d0",
+      "boardUnitId": "11f00eeb-9f7a-91c7-b750-5d2fa2f983d0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-15",
+      "alias": "Офис VK: вход по пропускам",
+      "publicId": 139703,
+      "uuid": "11f02a4faf0019493e4091969555da60",
+      "uuidDashed": "11f02a4f-af00-1949-3e40-91969555da60",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Ленинградский проспект, 39с79",
+      "state": 1,
+      "type": 1,
+      "square": 50,
+      "beginDateWork": "2025-05-10",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 0,
+          "WorkingTimeEnd": 1800
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 0,
+          "WorkingTimeEnd": 1800
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f02a4f-af00-1949-3e40-91969555da60",
+      "boardUnitId": "11f02a4f-af00-1949-3e40-91969555da60",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-16",
+      "alias": "ТЦ Метрополис | 1 этаж",
+      "publicId": 139745,
+      "uuid": "11f0782891ed2fbd629fccd1ab3222e0",
+      "uuidDashed": "11f07828-91ed-2fbd-629f-ccd1ab3222e0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Ленинградское шоссе, 16Ас4",
+      "state": 1,
+      "type": 1,
+      "square": 21.9,
+      "beginDateWork": "2025-09-03",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f07828-91ed-2fbd-629f-ccd1ab3222e0",
+      "boardUnitId": "11f07828-91ed-2fbd-629f-ccd1ab3222e0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-17",
+      "alias": "ТЦ Метрополис | 2 этаж",
+      "publicId": 139744,
+      "uuid": "11f0782b99d0e9ef12fa0aeb06c2c540",
+      "uuidDashed": "11f0782b-99d0-e9ef-12fa-0aeb06c2c540",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Ленинградское шоссе, 16Ас4",
+      "state": 1,
+      "type": 1,
+      "square": 21,
+      "beginDateWork": "2025-09-03",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f0782b-99d0-e9ef-12fa-0aeb06c2c540",
+      "boardUnitId": "11f0782b-99d0-e9ef-12fa-0aeb06c2c540",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-18",
+      "alias": "БЦ Ситидел",
+      "publicId": 139767,
+      "uuid": "11f0a4e0b69b1f4594b4a91661983540",
+      "uuidDashed": "11f0a4e0-b69b-1f45-94b4-a91661983540",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Земляной Вал, 9",
+      "state": 1,
+      "type": 1,
+      "square": 91,
+      "beginDateWork": "2025-11-18",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 72000
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 0,
+          "WorkingTimeEnd": 1800
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 0,
+          "WorkingTimeEnd": 1800
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f0a4e0-b69b-1f45-94b4-a91661983540",
+      "boardUnitId": "11f0a4e0-b69b-1f45-94b4-a91661983540",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-19",
+      "alias": "Садовническая, 42с1",
+      "publicId": 139777,
+      "uuid": "11f0b49f90403961a39085d7da77cf10",
+      "uuidDashed": "11f0b49f-9040-3961-a390-85d7da77cf10",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Садовническая улица, 42с1",
+      "state": 1,
+      "type": 1,
+      "square": 119.6,
+      "beginDateWork": "2026-03-17",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f0b49f-9040-3961-a390-85d7da77cf10",
+      "boardUnitId": "11f0b49f-9040-3961-a390-85d7da77cf10",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-20",
+      "alias": "БЦ Стоун Савёловский",
+      "publicId": 139778,
+      "uuid": "11f0b4a5ac926f59e22f2c8bd0c7bd80",
+      "uuidDashed": "11f0b4a5-ac92-6f59-e22f-2c8bd0c7bd80",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Двинцев, 3с1",
+      "state": 1,
+      "type": 1,
+      "square": 86.3,
+      "beginDateWork": "2026-06-11",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 64800
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 36000,
+          "WorkingTimeEnd": 64800
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f0b4a5-ac92-6f59-e22f-2c8bd0c7bd80",
+      "boardUnitId": "11f0b4a5-ac92-6f59-e22f-2c8bd0c7bd80",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-21",
+      "alias": "Красная Пресня, 38",
+      "publicId": 139779,
+      "uuid": "11f0b4aeb4575130ced694fc30e887a0",
+      "uuidDashed": "11f0b4ae-b457-5130-ced6-94fc30e887a0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Красная Пресня, 38",
+      "state": 1,
+      "type": 1,
+      "square": 53.4,
+      "beginDateWork": "2026-02-24",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 75600
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f0b4ae-b457-5130-ced6-94fc30e887a0",
+      "boardUnitId": "11f0b4ae-b457-5130-ced6-94fc30e887a0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-22",
+      "alias": "Никитский бульвар, 9",
+      "publicId": 139843,
+      "uuid": "11f108cf90db831ddef19810ac70eb90",
+      "uuidDashed": "11f108cf-90db-831d-def1-9810ac70eb90",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Никитский бульвар, 9",
+      "state": 1,
+      "type": 1,
+      "square": 43.2,
+      "beginDateWork": "2026-04-21",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f108cf-90db-831d-def1-9810ac70eb90",
+      "boardUnitId": "11f108cf-90db-831d-def1-9810ac70eb90",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-23",
+      "alias": "ЖК Волжский парк",
+      "publicId": 139903,
+      "uuid": "11f159c79f9d438331e9669c968f8c70",
+      "uuidDashed": "11f159c7-9f9d-4383-31e9-669c968f8c70",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "1-й Грайвороновский проезд, 7Ак3",
+      "state": 1,
+      "type": 1,
+      "square": 59.4,
+      "beginDateWork": "2026-07-30",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f159c7-9f9d-4383-31e9-669c968f8c70",
+      "boardUnitId": "11f159c7-9f9d-4383-31e9-669c968f8c70",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-24",
+      "alias": "ЖК Лучи",
+      "publicId": 139844,
+      "uuid": "11f108d0ac604df7345fe4b9e186be80",
+      "uuidDashed": "11f108d0-ac60-4df7-345f-e4b9e186be80",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "Производственная улица, 12к1",
+      "state": 1,
+      "type": 1,
+      "square": 93.9,
+      "beginDateWork": "2026-04-15",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f108d0-ac60-4df7-345f-e4b9e186be80",
+      "boardUnitId": "11f108d0-ac60-4df7-345f-e4b9e186be80",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-25",
+      "alias": "ЖК Сидней Сити",
+      "publicId": 139845,
+      "uuid": "11f108d1b178dfd4c6fa3e92a4a50020",
+      "uuidDashed": "11f108d1-b178-dfd4-c6fa-3e92a4a50020",
+      "departmentId": 375,
+      "organizationName": "Сырная Пенка",
+      "organizationUUId": "11F0A283B922870E9608ABF974EF7130",
+      "address": "Шелепихинская набережная, 40к1",
+      "state": 1,
+      "type": 1,
+      "square": 75.1,
+      "beginDateWork": "2026-05-15",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 30600,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f108d1-b178-dfd4-c6fa-3e92a4a50020",
+      "boardUnitId": "11f108d1-b178-dfd4-c6fa-3e92a4a50020",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-26",
+      "alias": "ЖК Зиларт | Весниных",
+      "publicId": 139902,
+      "uuid": "11f159c4980be5f2b142ec5fa218c370",
+      "uuidDashed": "11f159c4-980b-e5f2-b142-ec5fa218c370",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "бульвар Братьев Весниных, 1",
+      "state": 1,
+      "type": 1,
+      "square": 79.9,
+      "beginDateWork": "2026-07-30",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 28800,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f159c4-980b-e5f2-b142-ec5fa218c370",
+      "boardUnitId": "11f159c4-980b-e5f2-b142-ec5fa218c370",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-27",
+      "alias": "Хамовнический вал, 32",
+      "publicId": 139904,
+      "uuid": "11f159d1b8b8df4e996673bc4a090ca0",
+      "uuidDashed": "11f159d1-b8b8-df4e-9966-73bc4a090ca0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Хамовнический Вал, 32",
+      "state": 1,
+      "type": 1,
+      "square": 53.4,
+      "beginDateWork": "2026-08-31",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f159d1-b8b8-df4e-9966-73bc4a090ca0",
+      "boardUnitId": "11f159d1-b8b8-df4e-9966-73bc4a090ca0",
+      "boardVerified": false
+    },
+    {
+      "name": "Москва 1-31",
+      "alias": "ЖК Академика Павлова",
+      "publicId": 139955,
+      "uuid": "11f19d45863d21d46e9bf5dc082012e0",
+      "uuidDashed": "11f19d45-863d-21d4-6e9b-f5dc082012e0",
+      "departmentId": 375,
+      "organizationName": "ПРОДУКТЫ ДЛЯ ЖИЗНИ",
+      "organizationUUId": "11EF5353B74223FCACCB0095308861D0",
+      "address": "улица Академика Павлова, 28",
+      "state": 1,
+      "type": 1,
+      "square": 66.3,
+      "beginDateWork": "2026-09-14",
+      "timeZoneShift": 3,
+      "restaurantWeekWorkingTime": [
+        {
+          "DayIndex": 0,
+          "DayAlias": "Monday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 1,
+          "DayAlias": "Tuesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 2,
+          "DayAlias": "Wednesday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 3,
+          "DayAlias": "Thursday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 4,
+          "DayAlias": "Friday",
+          "WorkingTimeStart": 27000,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 5,
+          "DayAlias": "Saturday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        },
+        {
+          "DayIndex": 6,
+          "DayAlias": "Sunday",
+          "WorkingTimeStart": 32400,
+          "WorkingTimeEnd": 79200
+        }
+      ],
+      "boardUrl": "https://motivationboard.drinkit.dodois.io/#/board/643/11f19d45-863d-21d4-6e9b-f5dc082012e0",
+      "boardUnitId": "11f19d45-863d-21d4-6e9b-f5dc082012e0",
+      "boardVerified": false
+    }
+  ]
+}
