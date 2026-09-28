@@ -1,5 +1,492 @@
 {
- "updatedAt": null,
- "units": {},
- "days": {}
+ "updatedAt": "2026-09-28T11:44:26.416Z",
+ "units": {
+  "1148": {
+   "name": "Москва 1-1",
+   "alias": "БЦ Савёловский Сити",
+   "departmentId": 375
+  },
+  "139614": {
+   "name": "Москва 1-2",
+   "alias": "БЦ Джазз",
+   "departmentId": 375
+  },
+  "139615": {
+   "name": "Москва 1-3",
+   "alias": "БЦ Прайм Тайм",
+   "departmentId": 375
+  },
+  "139641": {
+   "name": "Москва 1-4",
+   "alias": "БЦ Метрополис",
+   "departmentId": 375
+  },
+  "139642": {
+   "name": "Москва 1-5",
+   "alias": "БЦ DM Tower",
+   "departmentId": 375
+  },
+  "139643": {
+   "name": "Москва 1-6",
+   "alias": "ТЦ Ботаника | 1 этаж",
+   "departmentId": 375
+  },
+  "139644": {
+   "name": "Москва 1-7",
+   "alias": "ЖК Кварталы 21/19",
+   "departmentId": 375
+  },
+  "139645": {
+   "name": "Москва 1-8",
+   "alias": "Усачёва, 29к9",
+   "departmentId": 375
+  },
+  "139646": {
+   "name": "Москва 1-9",
+   "alias": "ЖК Зиларт | Щусева",
+   "departmentId": 375
+  },
+  "139692": {
+   "name": "Москва 1-10",
+   "alias": "Новокузнецкая, 4/12c1",
+   "departmentId": 375
+  },
+  "139693": {
+   "name": "Москва 1-11",
+   "alias": "ЖК Lucky",
+   "departmentId": 375
+  },
+  "139694": {
+   "name": "Москва 1-12",
+   "alias": "БЦ Аркус",
+   "departmentId": 375
+  },
+  "139695": {
+   "name": "Москва 1-13",
+   "alias": "ЖК Сердце Столицы: вход по пропускам",
+   "departmentId": 375
+  },
+  "139696": {
+   "name": "Москва 1-14",
+   "alias": "ЖК Green park",
+   "departmentId": 375
+  },
+  "139703": {
+   "name": "Москва 1-15",
+   "alias": "Офис VK: вход по пропускам",
+   "departmentId": 375
+  },
+  "139744": {
+   "name": "Москва 1-17",
+   "alias": "ТЦ Метрополис | 2 этаж",
+   "departmentId": 375
+  },
+  "139745": {
+   "name": "Москва 1-16",
+   "alias": "ТЦ Метрополис | 1 этаж",
+   "departmentId": 375
+  },
+  "139767": {
+   "name": "Москва 1-18",
+   "alias": "БЦ Ситидел",
+   "departmentId": 375
+  },
+  "139777": {
+   "name": "Москва 1-19",
+   "alias": "Садовническая, 42с1",
+   "departmentId": 375
+  },
+  "139778": {
+   "name": "Москва 1-20",
+   "alias": "БЦ Стоун Савёловский",
+   "departmentId": 375
+  },
+  "139779": {
+   "name": "Москва 1-21",
+   "alias": "Красная Пресня, 38",
+   "departmentId": 375
+  },
+  "139843": {
+   "name": "Москва 1-22",
+   "alias": "Никитский бульвар, 9",
+   "departmentId": 375
+  },
+  "139844": {
+   "name": "Москва 1-24",
+   "alias": "ЖК Лучи",
+   "departmentId": 375
+  },
+  "139845": {
+   "name": "Москва 1-25",
+   "alias": "ЖК Сидней Сити",
+   "departmentId": 375
+  },
+  "139902": {
+   "name": "Москва 1-26",
+   "alias": "ЖК Зиларт | Весниных",
+   "departmentId": 375
+  },
+  "139903": {
+   "name": "Москва 1-23",
+   "alias": "ЖК Волжский парк",
+   "departmentId": 375
+  },
+  "139904": {
+   "name": "Москва 1-27",
+   "alias": "Хамовнический вал, 32",
+   "departmentId": 375
+  },
+  "139905": {
+   "name": "Москва 1-28",
+   "alias": null,
+   "departmentId": 375
+  },
+  "139915": {
+   "name": "Москва 1-99",
+   "alias": null,
+   "departmentId": 375
+  },
+  "139953": {
+   "name": "Москва 1-29",
+   "alias": null,
+   "departmentId": 375
+  },
+  "139954": {
+   "name": "Москва 1-30",
+   "alias": null,
+   "departmentId": 375
+  },
+  "139955": {
+   "name": "Москва 1-31",
+   "alias": "ЖК Академика Павлова",
+   "departmentId": 375
+  }
+ },
+ "days": {
+  "2026-09-21": {
+   "1148": {
+    "revenue": 169618,
+    "orders": 432,
+    "avgCheck": 392.63
+   },
+   "139614": {
+    "revenue": 123315,
+    "orders": 301,
+    "avgCheck": 409.68
+   },
+   "139615": {
+    "revenue": 125335,
+    "orders": 291,
+    "avgCheck": 430.7
+   },
+   "139641": {
+    "revenue": 244871,
+    "orders": 603,
+    "avgCheck": 406.09
+   },
+   "139642": {
+    "revenue": 235772,
+    "orders": 563,
+    "avgCheck": 418.78
+   },
+   "139643": {
+    "revenue": 277902,
+    "orders": 671,
+    "avgCheck": 414.16
+   },
+   "139644": {
+    "revenue": 117380,
+    "orders": 279,
+    "avgCheck": 420.72
+   },
+   "139645": {
+    "revenue": 304563,
+    "orders": 631,
+    "avgCheck": 482.67
+   },
+   "139646": {
+    "revenue": 225826,
+    "orders": 475,
+    "avgCheck": 475.42
+   },
+   "139692": {
+    "revenue": 157852,
+    "orders": 369,
+    "avgCheck": 427.78
+   },
+   "139693": {
+    "revenue": 225244,
+    "orders": 549,
+    "avgCheck": 410.28
+   },
+   "139694": {
+    "revenue": 207009,
+    "orders": 506,
+    "avgCheck": 409.11
+   },
+   "139695": {
+    "revenue": 142206,
+    "orders": 315,
+    "avgCheck": 451.45
+   },
+   "139696": {
+    "revenue": 140510,
+    "orders": 316,
+    "avgCheck": 444.65
+   },
+   "139703": {
+    "revenue": 146642,
+    "orders": 375,
+    "avgCheck": 391.05
+   },
+   "139744": {
+    "revenue": 114425,
+    "orders": 278,
+    "avgCheck": 411.6
+   },
+   "139745": {
+    "revenue": 89646,
+    "orders": 208,
+    "avgCheck": 430.99
+   },
+   "139767": {
+    "revenue": 189021,
+    "orders": 473,
+    "avgCheck": 399.62
+   },
+   "139777": {
+    "revenue": 212535,
+    "orders": 439,
+    "avgCheck": 484.13
+   },
+   "139778": {
+    "revenue": 31350,
+    "orders": 80,
+    "avgCheck": 391.88
+   },
+   "139779": {
+    "revenue": 139729,
+    "orders": 315,
+    "avgCheck": 443.58
+   },
+   "139843": {
+    "revenue": 156885,
+    "orders": 340,
+    "avgCheck": 461.43
+   },
+   "139844": {
+    "revenue": 97657,
+    "orders": 200,
+    "avgCheck": 488.29
+   },
+   "139845": {
+    "revenue": 61059,
+    "orders": 140,
+    "avgCheck": 436.14
+   },
+   "139902": {
+    "revenue": 84767,
+    "orders": 190,
+    "avgCheck": 446.14
+   },
+   "139903": {
+    "revenue": 90032,
+    "orders": 183,
+    "avgCheck": 491.98
+   },
+   "139904": {
+    "revenue": 118078,
+    "orders": 254,
+    "avgCheck": 464.87
+   },
+   "139905": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139915": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139953": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139954": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139955": {
+    "revenue": 108867,
+    "orders": 215,
+    "avgCheck": 506.36
+   }
+  },
+  "2026-09-27": {
+   "1148": {
+    "revenue": 84389,
+    "orders": 178,
+    "avgCheck": 474.1
+   },
+   "139614": {
+    "revenue": 104837,
+    "orders": 191,
+    "avgCheck": 548.88
+   },
+   "139615": {
+    "revenue": 97529,
+    "orders": 176,
+    "avgCheck": 554.14
+   },
+   "139641": {
+    "revenue": 119858,
+    "orders": 254,
+    "avgCheck": 471.88
+   },
+   "139642": {
+    "revenue": 34047,
+    "orders": 66,
+    "avgCheck": 515.86
+   },
+   "139643": {
+    "revenue": 393319,
+    "orders": 794,
+    "avgCheck": 495.36
+   },
+   "139644": {
+    "revenue": 157402,
+    "orders": 333,
+    "avgCheck": 472.68
+   },
+   "139645": {
+    "revenue": 335895,
+    "orders": 575,
+    "avgCheck": 584.17
+   },
+   "139646": {
+    "revenue": 333008,
+    "orders": 635,
+    "avgCheck": 524.42
+   },
+   "139692": {
+    "revenue": 127328,
+    "orders": 241,
+    "avgCheck": 528.33
+   },
+   "139693": {
+    "revenue": 204631,
+    "orders": 396,
+    "avgCheck": 516.74
+   },
+   "139694": {
+    "revenue": 35297,
+    "orders": 65,
+    "avgCheck": 543.03
+   },
+   "139695": {
+    "revenue": 146866,
+    "orders": 320,
+    "avgCheck": 458.96
+   },
+   "139696": {
+    "revenue": 233716,
+    "orders": 471,
+    "avgCheck": 496.21
+   },
+   "139703": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139744": {
+    "revenue": 177241,
+    "orders": 350,
+    "avgCheck": 506.4
+   },
+   "139745": {
+    "revenue": 180867,
+    "orders": 375,
+    "avgCheck": 482.31
+   },
+   "139767": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139777": {
+    "revenue": 152439,
+    "orders": 300,
+    "avgCheck": 508.13
+   },
+   "139778": {
+    "revenue": 8697,
+    "orders": 21,
+    "avgCheck": 414.14
+   },
+   "139779": {
+    "revenue": 91746,
+    "orders": 186,
+    "avgCheck": 493.26
+   },
+   "139843": {
+    "revenue": 145940,
+    "orders": 301,
+    "avgCheck": 484.85
+   },
+   "139844": {
+    "revenue": 173872,
+    "orders": 320,
+    "avgCheck": 543.35
+   },
+   "139845": {
+    "revenue": 90335,
+    "orders": 173,
+    "avgCheck": 522.17
+   },
+   "139902": {
+    "revenue": 150987,
+    "orders": 297,
+    "avgCheck": 508.37
+   },
+   "139903": {
+    "revenue": 104004,
+    "orders": 222,
+    "avgCheck": 468.49
+   },
+   "139904": {
+    "revenue": 126053,
+    "orders": 319,
+    "avgCheck": 395.15
+   },
+   "139905": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139915": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139953": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139954": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139955": {
+    "revenue": 147247,
+    "orders": 278,
+    "avgCheck": 529.67
+   }
+  }
+ },
+ "source": "publicapi.drinkit.dodois.io; weekBefore = сегодня минус 7 дней"
 }
