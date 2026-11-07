@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T07:18:12.976Z",
+ "updatedAt": "2026-11-07T06:29:48.548Z",
  "units": {
   "1148": {
    "name": "Москва 1-1",
@@ -7526,6 +7526,173 @@
     "revenue": 115852,
     "orders": 253,
     "avgCheck": 457.91
+   },
+   "139995": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   }
+  },
+  "2026-11-06": {
+   "1148": {
+    "revenue": 188838,
+    "orders": 425,
+    "avgCheck": 444.32
+   },
+   "139614": {
+    "revenue": 148014,
+    "orders": 311,
+    "avgCheck": 475.93
+   },
+   "139615": {
+    "revenue": 112485,
+    "orders": 256,
+    "avgCheck": 439.39
+   },
+   "139641": {
+    "revenue": 234241,
+    "orders": 525,
+    "avgCheck": 446.17
+   },
+   "139642": {
+    "revenue": 198027,
+    "orders": 473,
+    "avgCheck": 418.66
+   },
+   "139643": {
+    "revenue": 323881,
+    "orders": 730,
+    "avgCheck": 443.67
+   },
+   "139644": {
+    "revenue": 117352,
+    "orders": 265,
+    "avgCheck": 442.84
+   },
+   "139645": {
+    "revenue": 316278,
+    "orders": 670,
+    "avgCheck": 472.06
+   },
+   "139646": {
+    "revenue": 189935,
+    "orders": 419,
+    "avgCheck": 453.31
+   },
+   "139692": {
+    "revenue": 173974,
+    "orders": 378,
+    "avgCheck": 460.25
+   },
+   "139693": {
+    "revenue": 224754,
+    "orders": 504,
+    "avgCheck": 445.94
+   },
+   "139694": {
+    "revenue": 133570,
+    "orders": 306,
+    "avgCheck": 436.5
+   },
+   "139695": {
+    "revenue": 126409,
+    "orders": 258,
+    "avgCheck": 489.96
+   },
+   "139696": {
+    "revenue": 158159,
+    "orders": 346,
+    "avgCheck": 457.11
+   },
+   "139703": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139744": {
+    "revenue": 178044,
+    "orders": 398,
+    "avgCheck": 447.35
+   },
+   "139745": {
+    "revenue": 141185,
+    "orders": 313,
+    "avgCheck": 451.07
+   },
+   "139767": {
+    "revenue": 189941,
+    "orders": 468,
+    "avgCheck": 405.86
+   },
+   "139777": {
+    "revenue": 187653,
+    "orders": 432,
+    "avgCheck": 434.38
+   },
+   "139778": {
+    "revenue": 51205,
+    "orders": 104,
+    "avgCheck": 492.36
+   },
+   "139779": {
+    "revenue": 159421,
+    "orders": 351,
+    "avgCheck": 454.19
+   },
+   "139843": {
+    "revenue": 178697,
+    "orders": 393,
+    "avgCheck": 454.7
+   },
+   "139844": {
+    "revenue": 105915,
+    "orders": 225,
+    "avgCheck": 470.73
+   },
+   "139845": {
+    "revenue": 64562,
+    "orders": 136,
+    "avgCheck": 474.72
+   },
+   "139902": {
+    "revenue": 100707,
+    "orders": 202,
+    "avgCheck": 498.55
+   },
+   "139903": {
+    "revenue": 90694,
+    "orders": 183,
+    "avgCheck": 495.6
+   },
+   "139904": {
+    "revenue": 131552,
+    "orders": 278,
+    "avgCheck": 473.21
+   },
+   "139905": {
+    "revenue": 255197,
+    "orders": 555,
+    "avgCheck": 459.81
+   },
+   "139915": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139953": {
+    "revenue": 0,
+    "orders": 0,
+    "avgCheck": 0
+   },
+   "139954": {
+    "revenue": 71099,
+    "orders": 160,
+    "avgCheck": 444.37
+   },
+   "139955": {
+    "revenue": 121531,
+    "orders": 253,
+    "avgCheck": 480.36
    },
    "139995": {
     "revenue": 0,
